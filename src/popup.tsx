@@ -52,7 +52,7 @@ const Popup = () => {
         <Box sx={{ width: 384 }}>
             <Box sx={{ py: 2, px: 4, color: "white", backgroundColor: theme.palette.primary.main }}>
                 <Typography variant="h6">
-                    History Expiry
+                    History AutoDelete
                 </Typography>
             </Box>
             <Box sx={{ p: 4 }}>

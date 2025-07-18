@@ -1,5 +1,5 @@
 {
-    "name": "History Expiry AutoDelete",
+    "name": "History AutoDelete",
     "description": "Automatically delete Chrome history older than a set duration.",
     "icons": {
         "16": "public/icon16.png",
@@ -7,7 +7,7 @@
         "48": "public/icon48.png",
         "128": "public/icon128.png"
     },
-    "version": "1.0.0",
+    "version": "1.0",
     "manifest_version": 3,
     "permissions": [
         "history",
