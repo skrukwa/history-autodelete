@@ -1,52 +1,77 @@
-import { useEffect, useState } from "react";
-import ReactDOM from "react-dom/client";
-import { useTheme } from '@mui/material/styles';
-import {
-    Box,
-    Typography,
-    RadioGroup,
-    Radio,
-    FormControlLabel,
-    TextField,
-    MenuItem,
-    Button
-} from "@mui/material";
-import { TimeUnit, TIME_UNITS, Settings, DEFAULT_SETTINGS, APPLIED_MESSAGE_ACTION, SETTINGS_KEYS } from "./global";
+import { Box, Button, FormControlLabel, MenuItem, Radio, RadioGroup, TextField, Typography } from "@mui/material"
+import { useTheme } from "@mui/material/styles"
+import { useEffect, useState } from "react"
+import ReactDOM from "react-dom/client"
+import { APPLIED_MESSAGE_ACTION, DEFAULT_SETTINGS, MS_PER, Settings, SETTINGS_KEYS, TIME_UNITS, TimeUnit } from "./global"
 
 const Popup = () => {
-    const [enabled, setEnabled] = useState<boolean>(DEFAULT_SETTINGS.enabled);
-    const [value, setValue] = useState<number>(DEFAULT_SETTINGS.value);
-    const [unit, setUnit] = useState<TimeUnit>(DEFAULT_SETTINGS.unit);
+    const [enabled, setEnabled] = useState<boolean>(DEFAULT_SETTINGS.enabled)
+    const [value, setValue] = useState<number | ''>(DEFAULT_SETTINGS.value)
+    const [unit, setUnit] = useState<TimeUnit>(DEFAULT_SETTINGS.unit)
 
-    const [originalSettings, setOriginalSettings] = useState<Settings>({
-        enabled: DEFAULT_SETTINGS.enabled,
-        value: DEFAULT_SETTINGS.value,
-        unit: DEFAULT_SETTINGS.unit
-    });
+    const [savedSettings, setSavedSettings] = useState<Settings>(DEFAULT_SETTINGS)
+
+    const [historyCount, setHistoryCount] = useState<number | null>(null)
 
     useEffect(() => {
         chrome.storage.sync.get(SETTINGS_KEYS, (data: Partial<Settings>) => {
-            const settings: Settings = {
+            const loadedSettings: Settings = {
                 enabled: data.enabled ?? DEFAULT_SETTINGS.enabled,
                 value: data.value ?? DEFAULT_SETTINGS.value,
                 unit: (data.unit as TimeUnit) ?? DEFAULT_SETTINGS.unit
-            };
+            }
 
-            setEnabled(settings.enabled);
-            setValue(settings.value);
-            setUnit(settings.unit);
-            setOriginalSettings(settings);
-        });
-    }, []);
+            setEnabled(loadedSettings.enabled)
+            setValue(loadedSettings.value)
+            setUnit(loadedSettings.unit)
+
+            setSavedSettings(loadedSettings)
+        })
+    }, [])
+
+    const calculateHistoryCount = async () => {
+        if (!enabled || !value || !MS_PER[unit]) {
+            setHistoryCount(null)
+            return
+        }
+
+        const msAgo = (value as number) * MS_PER[unit]
+        const cutoff = Date.now() - msAgo
+
+        const historyItems = await chrome.history.search({
+            text: '',
+            startTime: 0,
+            endTime: cutoff,
+            maxResults: 0
+        })
+
+        setHistoryCount(historyItems.length)
+    }
+
+    useEffect(() => {
+        // calculateHistoryCount on a 500ms debounce
+        const timeoutId = setTimeout(() => {
+            calculateHistoryCount()
+        }, 500)
+
+        return () => clearTimeout(timeoutId)
+    }, [enabled, value, unit])
 
     const handleApply = async () => {
-        const newSettings: Settings = { enabled, value, unit };
-        await chrome.storage.sync.set(newSettings);
-        await chrome.runtime.sendMessage({ action: APPLIED_MESSAGE_ACTION, settings: newSettings });
-        setOriginalSettings(newSettings);
-    };
+        // value will be a number or else apply would have been disabled
+        const newSettings: Settings = { enabled, value: value as number, unit }
+        await chrome.storage.sync.set(newSettings)
+        await chrome.runtime.sendMessage({ action: APPLIED_MESSAGE_ACTION, settings: newSettings })
+        setSavedSettings(newSettings)
+        setHistoryCount(null)
+    }
 
-    const theme = useTheme();
+    const isApplyDisabled = (enabled === savedSettings.enabled
+        && value === savedSettings.value
+        && unit === savedSettings.unit)
+        || value === ''
+
+    const theme = useTheme()
 
     return (
         <Box sx={{ width: 384 }}>
@@ -55,7 +80,7 @@ const Popup = () => {
                     History AutoDelete
                 </Typography>
             </Box>
-            <Box sx={{ p: 4 }}>
+            <Box sx={{ m: 3 }}>
                 <RadioGroup
                     value={enabled ? "on" : "off"}
                     onChange={(e) => setEnabled(e.target.value === "on")}
@@ -63,57 +88,73 @@ const Popup = () => {
                     <FormControlLabel
                         value="on"
                         control={<Radio />}
-                        label="Auto-delete history older than"
+                        label={
+                            <Box>
+                                <Typography sx={{ py: 1.125 }}>Auto-delete history older than</Typography>
+                                <Box>
+                                    <TextField
+                                        size="small"
+                                        type="number"
+                                        slotProps={{
+                                            htmlInput: {
+                                                min: 1,
+                                                max: 99,
+                                                // handle '.', 'e', '+', '-', etc. that do not fire onChange
+                                                onInput: (e) => e.target.value = e.target.value.replace(/[^0-9]/g, '')
+                                            }
+                                        }}
+                                        value={value}
+                                        onChange={(e) => /^([1-9][0-9]?)?$/.test(e.target.value) && setValue(parseInt(e.target.value) || '')}
+                                        sx={{ width: 64, mr: 2 }}
+                                    />
+                                    <TextField
+                                        size="small"
+                                        select
+                                        value={unit}
+                                        onChange={(e) => setUnit(e.target.value as TimeUnit)}
+                                        sx={{ width: 128 }}
+                                    >
+                                        {TIME_UNITS.map((u) => (
+                                            <MenuItem key={u} value={u}>
+                                                {value !== '' && value > 1 ? `${u}s` : u}
+                                            </MenuItem>
+                                        ))}
+                                    </TextField>
+                                </Box>
+                            </Box>
+                        }
+                        sx={{ m: 0, mb: 2, alignItems: "start" }}
                     />
-
-                    <Box sx={{ ml: 4, mb: 3 }}>
-                        <TextField
-                            size="small"
-                            type="number"
-                            inputProps={{ min: 1, max: 99 }}
-                            value={value}
-                            onChange={(e) => setValue(parseInt(e.target.value) || 1)}
-                            sx={{ width: 64, mr: 2 }}
-                        />
-                        <TextField
-                            size="small"
-                            select
-                            value={unit}
-                            onChange={(e) => setUnit(e.target.value as TimeUnit)}
-                            sx={{ width: 128 }}
-                        >
-                            {TIME_UNITS.map((u) => (
-                                <MenuItem key={u} value={u}>
-                                    {value > 1 ? `${u}s` : u}
-                                </MenuItem>
-                            ))}
-                        </TextField>
-                    </Box>
-
-
                     <FormControlLabel
                         value="off"
                         control={<Radio />}
-                        label="Don't auto-delete history"
+                        label={
+                            <Typography sx={{ py: 1.125 }}>Don't auto-delete history</Typography>
+                        }
+                        sx={{ m: 0 }}
                     />
                 </RadioGroup>
-
-                <Box sx={{ mt: 6, display: "flex", justifyContent: "flex-end" }}>
+                <Box sx={{ mt: 6, display: "flex", alignItems: "center" }}>
                     <Button
                         variant="contained"
                         color="primary"
                         onClick={handleApply}
-                        disabled={enabled === originalSettings.enabled &&
-                            value === originalSettings.value &&
-                            unit === originalSettings.unit}
-                        sx={{ minWidth: 100 }}
+                        disabled={isApplyDisabled}
+                        sx={{ minWidth: 100, m: 1.125 }}
                     >
                         Apply
                     </Button>
+                    {enabled && !isApplyDisabled && historyCount !== null && (
+                        <Typography variant="body2" sx={{ ml: 2, color: theme.palette.text.secondary }}>
+                            This will immediately delete
+                            <br />
+                            {`${historyCount.toLocaleString()} history record${historyCount !== 1 ? 's' : ''}`}
+                        </Typography>
+                    )}
                 </Box>
             </Box>
         </Box>
-    );
-};
+    )
+}
 
-ReactDOM.createRoot(document.getElementById("root")!).render(<Popup />);
+ReactDOM.createRoot(document.getElementById("root")).render(<Popup />)

@@ -8,7 +8,7 @@ export default {
     mode: 'production',
     entry: {
         popup: './src/popup.tsx',
-        background: './src/background.ts',
+        worker: './src/worker.ts',
     },
     output: {
         path: resolve(__dirname, 'dist'),

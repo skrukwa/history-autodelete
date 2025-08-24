@@ -7,7 +7,7 @@
         "48": "public/icon48.png",
         "128": "public/icon128.png"
     },
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
     "permissions": [
         "history",
@@ -18,7 +18,7 @@
         "default_popup": "popup.html"
     },
     "background": {
-        "service_worker": "background.js",
+        "service_worker": "worker.js",
         "type": "module"
     }
 }

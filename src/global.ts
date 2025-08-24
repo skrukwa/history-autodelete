@@ -6,8 +6,8 @@ export const MS_PER: Record<TimeUnit, number> = {
 } as const;
 
 
-export type TimeUnit = 'hour' | 'day' | 'week' | 'month';
-export const TIME_UNITS: TimeUnit[] = ['hour', 'day', 'week', 'month'];
+export type TimeUnit = "hour" | "day" | "week" | "month";
+export const TIME_UNITS: TimeUnit[] = ["hour", "day", "week", "month"];
 
 export interface Settings {
     enabled: boolean;
@@ -15,14 +15,14 @@ export interface Settings {
     unit: TimeUnit;
 }
 
-export const SETTINGS_KEYS: string[] = ['enabled', 'value', 'unit'];
+export const SETTINGS_KEYS: string[] = ["enabled", "value", "unit"];
 
 export const DEFAULT_SETTINGS: Settings = {
     enabled: false,
     value: 1,
-    unit: 'week',
+    unit: "week",
 };
 
-export const APPLIED_MESSAGE_ACTION = 'run';
+export const APPLIED_MESSAGE_ACTION = "run";
 
-export const ALARM_NAME = 'run';
+export const ALARM_NAME = "run";
