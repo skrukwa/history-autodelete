@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "હિસ્ટ્રી ઓટો-ડિલીટ"
+    },
+    "extDescription": {
+        "message": "નક્કી કરેલા સમયગાળા કરતા જૂના ક્રોમ ઇતિહાસને (History) આપમેળે કાઢી નાખો."
+    },
+    "labelAutoDelete": {
+        "message": "આના કરતા જૂનો ઇતિહાસ આપમેળે કાઢી નાખો"
+    },
+    "labelDontAutoDelete": {
+        "message": "ઇતિહાસ આપમેળે કાઢી નાખશો નહીં"
+    },
+    "buttonApply": {
+        "message": "લાગુ કરો"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "આ તાત્કાલિક $COUNT$ ઇતિહાસ રેકોર્ડ કાઢી નાખશે",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "આ તાત્કાલિક $COUNT$ ઇતિહાસ રેકોર્ડ્સ કાઢી નાખશે",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "કલાક"
+    },
+    "unitHourPlural": {
+        "message": "કલાકો"
+    },
+    "unitDay": {
+        "message": "દિવસ"
+    },
+    "unitDayPlural": {
+        "message": "દિવસો"
+    },
+    "unitWeek": {
+        "message": "અઠવાડિયું"
+    },
+    "unitWeekPlural": {
+        "message": "અઠવાડિયા"
+    },
+    "unitMonth": {
+        "message": "મહિનો"
+    },
+    "unitMonthPlural": {
+        "message": "મહિનાઓ"
+    }
+}

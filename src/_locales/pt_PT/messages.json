@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Auto-eliminação de Histórico"
+    },
+    "extDescription": {
+        "message": "Eliminar automaticamente o histórico do Chrome com mais de uma duração definida."
+    },
+    "labelAutoDelete": {
+        "message": "Eliminar automaticamente o histórico com mais de"
+    },
+    "labelDontAutoDelete": {
+        "message": "Não eliminar automaticamente o histórico"
+    },
+    "buttonApply": {
+        "message": "Aplicar"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Isto irá eliminar imediatamente $COUNT$ registo de histórico",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Isto irá eliminar imediatamente $COUNT$ registos de histórico",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "hora"
+    },
+    "unitHourPlural": {
+        "message": "horas"
+    },
+    "unitDay": {
+        "message": "dia"
+    },
+    "unitDayPlural": {
+        "message": "dias"
+    },
+    "unitWeek": {
+        "message": "semana"
+    },
+    "unitWeekPlural": {
+        "message": "semanas"
+    },
+    "unitMonth": {
+        "message": "mês"
+    },
+    "unitMonthPlural": {
+        "message": "meses"
+    }
+}

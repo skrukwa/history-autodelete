@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "ಹಿಸ್ಟರಿ ಆಟೋ-ಡಿಲೀಟ್"
+    },
+    "extDescription": {
+        "message": "ನಿಗದಿತ ಅವಧಿಗಿಂತ ಹಳೆಯದಾದ ಕ್ರೋಮ್ ಹಿಸ್ಟರಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಳಿಸಿ."
+    },
+    "labelAutoDelete": {
+        "message": "ಇದಕ್ಕಿಂತ ಹಳೆಯದಾದ ಹಿಸ್ಟರಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಳಿಸಿ"
+    },
+    "labelDontAutoDelete": {
+        "message": "ಹಿಸ್ಟರಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಳಿಸಬೇಡಿ"
+    },
+    "buttonApply": {
+        "message": "ಅನ್ವಯಿಸಿ"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "ಇದು ತಕ್ಷಣವೇ $COUNT$ ಹಿಸ್ಟರಿ ದಾಖಲೆಯನ್ನು ಅಳಿಸುತ್ತದೆ",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "ಇದು ತಕ್ಷಣವೇ $COUNT$ ಹಿಸ್ಟರಿ ದಾಖಲೆಗಳನ್ನು ಅಳಿಸುತ್ತದೆ",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "ಗಂಟೆ"
+    },
+    "unitHourPlural": {
+        "message": "ಗಂಟೆಗಳು"
+    },
+    "unitDay": {
+        "message": "ದಿನ"
+    },
+    "unitDayPlural": {
+        "message": "ದಿನಗಳು"
+    },
+    "unitWeek": {
+        "message": "ವಾರ"
+    },
+    "unitWeekPlural": {
+        "message": "ವಾರಗಳು"
+    },
+    "unitMonth": {
+        "message": "ತಿಂಗಳು"
+    },
+    "unitMonthPlural": {
+        "message": "ತಿಂಗಳುಗಳು"
+    }
+}

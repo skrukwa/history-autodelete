@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Автоудаление истории"
+    },
+    "extDescription": {
+        "message": "Автоматическое удаление истории Chrome старше указанного периода."
+    },
+    "labelAutoDelete": {
+        "message": "Автоматически удалять историю старше чем"
+    },
+    "labelDontAutoDelete": {
+        "message": "Не удалять историю автоматически"
+    },
+    "buttonApply": {
+        "message": "Применить"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Это приведет к немедленному удалению $COUNT$ записи из истории",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Это приведет к немедленному удалению $COUNT$ записей из истории",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "час"
+    },
+    "unitHourPlural": {
+        "message": "часов"
+    },
+    "unitDay": {
+        "message": "день"
+    },
+    "unitDayPlural": {
+        "message": "дней"
+    },
+    "unitWeek": {
+        "message": "неделя"
+    },
+    "unitWeekPlural": {
+        "message": "недель"
+    },
+    "unitMonth": {
+        "message": "месяц"
+    },
+    "unitMonthPlural": {
+        "message": "месяцев"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "हिस्ट्री ऑटोडिलीट"
+    },
+    "extDescription": {
+        "message": "एक निर्धारित अवधि से पुरानी क्रोम हिस्ट्री को स्वचालित रूप से हटाएँ।"
+    },
+    "labelAutoDelete": {
+        "message": "इससे पुरानी हिस्ट्री को स्वचालित रूप से हटाएँ"
+    },
+    "labelDontAutoDelete": {
+        "message": "हिस्ट्री को स्वचालित रूप से न हटाएँ"
+    },
+    "buttonApply": {
+        "message": "लागू करें"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "यह तुरंत $COUNT$ हिस्ट्री रिकॉर्ड को हटा देगा",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "यह तुरंत $COUNT$ हिस्ट्री रिकॉर्ड्स को हटा देगा",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "घंटा"
+    },
+    "unitHourPlural": {
+        "message": "घंटे"
+    },
+    "unitDay": {
+        "message": "दिन"
+    },
+    "unitDayPlural": {
+        "message": "दिन"
+    },
+    "unitWeek": {
+        "message": "सप्ताह"
+    },
+    "unitWeekPlural": {
+        "message": "सप्ताह"
+    },
+    "unitMonth": {
+        "message": "महीना"
+    },
+    "unitMonthPlural": {
+        "message": "महीने"
+    }
+}

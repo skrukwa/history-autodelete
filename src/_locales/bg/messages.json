@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Автоматично изтриване на историята"
+    },
+    "extDescription": {
+        "message": "Автоматично изтриване на историята на Chrome, по-стара от определен период."
+    },
+    "labelAutoDelete": {
+        "message": "Автоматично изтриване на историята, по-стара от"
+    },
+    "labelDontAutoDelete": {
+        "message": "Не изтривай автоматично историята"
+    },
+    "buttonApply": {
+        "message": "Приложи"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Това незабавно ще изтрие $COUNT$ запис от историята",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Това незабавно ще изтрие $COUNT$ записа от историята",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "час"
+    },
+    "unitHourPlural": {
+        "message": "часа"
+    },
+    "unitDay": {
+        "message": "ден"
+    },
+    "unitDayPlural": {
+        "message": "дни"
+    },
+    "unitWeek": {
+        "message": "седмица"
+    },
+    "unitWeekPlural": {
+        "message": "седмици"
+    },
+    "unitMonth": {
+        "message": "месец"
+    },
+    "unitMonthPlural": {
+        "message": "месеца"
+    }
+}

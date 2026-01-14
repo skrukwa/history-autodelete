@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Geschiedenis Automatisch Verwijderen"
+    },
+    "extDescription": {
+        "message": "Verwijder automatisch Chrome-geschiedenis die ouder is dan een ingestelde tijdsduur."
+    },
+    "labelAutoDelete": {
+        "message": "Geschiedenis automatisch verwijderen ouder dan"
+    },
+    "labelDontAutoDelete": {
+        "message": "Geschiedenis niet automatisch verwijderen"
+    },
+    "buttonApply": {
+        "message": "Toepassen"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Dit zal onmiddellijk $COUNT$ geschiedenisitem verwijderen",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Dit zal onmiddellijk $COUNT$ geschiedenisitems verwijderen",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "uur"
+    },
+    "unitHourPlural": {
+        "message": "uur"
+    },
+    "unitDay": {
+        "message": "dag"
+    },
+    "unitDayPlural": {
+        "message": "dagen"
+    },
+    "unitWeek": {
+        "message": "week"
+    },
+    "unitWeekPlural": {
+        "message": "weken"
+    },
+    "unitMonth": {
+        "message": "maand"
+    },
+    "unitMonthPlural": {
+        "message": "maanden"
+    }
+}

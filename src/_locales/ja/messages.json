@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "履歴自動削除"
+    },
+    "extDescription": {
+        "message": "設定した期間より古いChromeの閲覧履歴を自動的に削除します。"
+    },
+    "labelAutoDelete": {
+        "message": "次の期間より古い履歴を自動削除"
+    },
+    "labelDontAutoDelete": {
+        "message": "履歴を自動削除しない"
+    },
+    "buttonApply": {
+        "message": "適用"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "$COUNT$件の履歴が直ちに削除されます",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "$COUNT$件の履歴が直ちに削除されます",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "時間"
+    },
+    "unitHourPlural": {
+        "message": "時間"
+    },
+    "unitDay": {
+        "message": "日"
+    },
+    "unitDayPlural": {
+        "message": "日"
+    },
+    "unitWeek": {
+        "message": "週間"
+    },
+    "unitWeekPlural": {
+        "message": "週間"
+    },
+    "unitMonth": {
+        "message": "ヶ月"
+    },
+    "unitMonthPlural": {
+        "message": "ヶ月"
+    }
+}

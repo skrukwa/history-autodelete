@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Ștergere Automată Istoric"
+    },
+    "extDescription": {
+        "message": "Șterge automat istoricul Chrome mai vechi de o durată setată."
+    },
+    "labelAutoDelete": {
+        "message": "Șterge automat istoricul mai vechi de"
+    },
+    "labelDontAutoDelete": {
+        "message": "Nu șterge automat istoricul"
+    },
+    "buttonApply": {
+        "message": "Aplică"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Această acțiune va șterge imediat $COUNT$ înregistrare din istoric",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Această acțiune va șterge imediat $COUNT$ înregistrări din istoric",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "oră"
+    },
+    "unitHourPlural": {
+        "message": "ore"
+    },
+    "unitDay": {
+        "message": "zi"
+    },
+    "unitDayPlural": {
+        "message": "zile"
+    },
+    "unitWeek": {
+        "message": "săptămână"
+    },
+    "unitWeekPlural": {
+        "message": "săptămâni"
+    },
+    "unitMonth": {
+        "message": "lună"
+    },
+    "unitMonthPlural": {
+        "message": "luni"
+    }
+}

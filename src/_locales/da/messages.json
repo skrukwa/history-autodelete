@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Automatisk sletning af historik"
+    },
+    "extDescription": {
+        "message": "Slet automatisk Chrome-historik, der er ældre end en angivet varighed."
+    },
+    "labelAutoDelete": {
+        "message": "Slet automatisk historik, der er ældre end"
+    },
+    "labelDontAutoDelete": {
+        "message": "Slet ikke historik automatisk"
+    },
+    "buttonApply": {
+        "message": "Anvend"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Dette vil slette $COUNT$ historikpost med det samme",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Dette vil slette $COUNT$ historikposter med det samme",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "time"
+    },
+    "unitHourPlural": {
+        "message": "timer"
+    },
+    "unitDay": {
+        "message": "dag"
+    },
+    "unitDayPlural": {
+        "message": "dage"
+    },
+    "unitWeek": {
+        "message": "uge"
+    },
+    "unitWeekPlural": {
+        "message": "uger"
+    },
+    "unitMonth": {
+        "message": "måned"
+    },
+    "unitMonthPlural": {
+        "message": "måneder"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Αυτόματη διαγραφή ιστορικού"
+    },
+    "extDescription": {
+        "message": "Αυτόματη διαγραφή ιστορικού Chrome παλαιότερου από μια καθορισμένη διάρκεια."
+    },
+    "labelAutoDelete": {
+        "message": "Αυτόματη διαγραφή ιστορικού παλαιότερου από"
+    },
+    "labelDontAutoDelete": {
+        "message": "Να μην γίνεται αυτόματη διαγραφή ιστορικού"
+    },
+    "buttonApply": {
+        "message": "Εφαρμογή"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Αυτό θα διαγράψει αμέσως $COUNT$ εγγραφή ιστορικού",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Αυτό θα διαγράψει αμέσως $COUNT$ εγγραφές ιστορικού",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "ώρα"
+    },
+    "unitHourPlural": {
+        "message": "ώρες"
+    },
+    "unitDay": {
+        "message": "ημέρα"
+    },
+    "unitDayPlural": {
+        "message": "ημέρες"
+    },
+    "unitWeek": {
+        "message": "εβδομάδα"
+    },
+    "unitWeekPlural": {
+        "message": "εβδομάδες"
+    },
+    "unitMonth": {
+        "message": "μήνας"
+    },
+    "unitMonthPlural": {
+        "message": "μήνες"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "History AutoDelete"
+    },
+    "extDescription": {
+        "message": "Automatically delete Chrome history older than a set duration."
+    },
+    "labelAutoDelete": {
+        "message": "Auto-delete history older than"
+    },
+    "labelDontAutoDelete": {
+        "message": "Don't auto-delete history"
+    },
+    "buttonApply": {
+        "message": "Apply"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "This will immediately delete $COUNT$ history record",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "This will immediately delete $COUNT$ history records",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "hour"
+    },
+    "unitHourPlural": {
+        "message": "hours"
+    },
+    "unitDay": {
+        "message": "day"
+    },
+    "unitDayPlural": {
+        "message": "days"
+    },
+    "unitWeek": {
+        "message": "week"
+    },
+    "unitWeekPlural": {
+        "message": "weeks"
+    },
+    "unitMonth": {
+        "message": "month"
+    },
+    "unitMonthPlural": {
+        "message": "months"
+    }
+}

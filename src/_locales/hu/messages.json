@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Előzmények automatikus törlése"
+    },
+    "extDescription": {
+        "message": "A beállított időtartamnál régebbi Chrome előzmények automatikus törlése."
+    },
+    "labelAutoDelete": {
+        "message": "Az ennél régebbi előzmények automatikus törlése:"
+    },
+    "labelDontAutoDelete": {
+        "message": "Ne törölje automatikusan az előzményeket"
+    },
+    "buttonApply": {
+        "message": "Alkalmaz"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Ez azonnal törölni fog $COUNT$ előzménybejegyzést",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Ez azonnal törölni fog $COUNT$ előzménybejegyzést",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "óra"
+    },
+    "unitHourPlural": {
+        "message": "óra"
+    },
+    "unitDay": {
+        "message": "nap"
+    },
+    "unitDayPlural": {
+        "message": "nap"
+    },
+    "unitWeek": {
+        "message": "hét"
+    },
+    "unitWeekPlural": {
+        "message": "hét"
+    },
+    "unitMonth": {
+        "message": "hónap"
+    },
+    "unitMonthPlural": {
+        "message": "hónap"
+    }
+}

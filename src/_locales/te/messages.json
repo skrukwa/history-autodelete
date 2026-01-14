@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "హిస్టరీ ఆటోడిలీట్ (History AutoDelete)"
+    },
+    "extDescription": {
+        "message": "నిర్ణీత వ్యవధి కంటే పాత క్రోమ్ హిస్టరీని ఆటోమేటిక్‌గా తొలగించండి."
+    },
+    "labelAutoDelete": {
+        "message": "దీని కంటే పాత హిస్టరీని ఆటో-డిలీట్ చేయి"
+    },
+    "labelDontAutoDelete": {
+        "message": "హిస్టరీని ఆటో-డిలీట్ చేయవద్దు"
+    },
+    "buttonApply": {
+        "message": "వర్తింపజేయి"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "ఇది వెంటనే $COUNT$ హిస్టరీ రికార్డును తొలగిస్తుంది",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "ఇది వెంటనే $COUNT$ హిస్టరీ రికార్డులను తొలగిస్తుంది",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "గంట"
+    },
+    "unitHourPlural": {
+        "message": "గంటలు"
+    },
+    "unitDay": {
+        "message": "రోజు"
+    },
+    "unitDayPlural": {
+        "message": "రోజులు"
+    },
+    "unitWeek": {
+        "message": "వారం"
+    },
+    "unitWeekPlural": {
+        "message": "వారాలు"
+    },
+    "unitMonth": {
+        "message": "నెల"
+    },
+    "unitMonthPlural": {
+        "message": "నెలలు"
+    }
+}

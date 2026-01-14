@@ -27,14 +27,10 @@ export default {
     },
     plugins: [new CopyWebpackPlugin({
         patterns: [
+            { from: 'public/**/*.png' },
+            { from: 'src/_locales', to: '_locales' },
             { from: 'src/manifest.json' },
             { from: 'src/popup.html' },
-
-            {
-                from: 'public',
-                to: 'public',
-                globOptions: { ignore: ['**.psd'] },
-            }
         ],
     })],
 };

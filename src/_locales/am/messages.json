@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "የታሪክ ራስ-ሰር ስረዛ"
+    },
+    "extDescription": {
+        "message": "ከተወሰነ ጊዜ በላይ የቆየ የChrome ታሪክን በራስ-ሰር ይሰርዛል።"
+    },
+    "labelAutoDelete": {
+        "message": "ከዚህ በላይ የቆየ ታሪክን በራስ-ሰር ሰርዝ"
+    },
+    "labelDontAutoDelete": {
+        "message": "ታሪክን በራስ-ሰር አትሰርዝ"
+    },
+    "buttonApply": {
+        "message": "ተግብር"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "ይህ ወዲያውኑ $COUNT$ የታሪክ መዝገብ ይሰርዛል",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "ይህ ወዲያውኑ $COUNT$ የታሪክ መዝገቦችን ይሰርዛል",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "ሰዓት"
+    },
+    "unitHourPlural": {
+        "message": "ሰዓታት"
+    },
+    "unitDay": {
+        "message": "ቀን"
+    },
+    "unitDayPlural": {
+        "message": "ቀናት"
+    },
+    "unitWeek": {
+        "message": "ሳምንት"
+    },
+    "unitWeekPlural": {
+        "message": "ሳምንታት"
+    },
+    "unitMonth": {
+        "message": "ወር"
+    },
+    "unitMonthPlural": {
+        "message": "ወራት"
+    }
+}

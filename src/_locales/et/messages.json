@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Ajaloo automaatne kustutamine"
+    },
+    "extDescription": {
+        "message": "Kustuta automaatselt Chrome'i ajalugu, mis on vanem kui määratud ajavahemik."
+    },
+    "labelAutoDelete": {
+        "message": "Kustuta automaatselt ajalugu, mis on vanem kui"
+    },
+    "labelDontAutoDelete": {
+        "message": "Ära kustuta ajalugu automaatselt"
+    },
+    "buttonApply": {
+        "message": "Rakenda"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "See kustutab koheselt $COUNT$ ajalookirje",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "See kustutab koheselt $COUNT$ ajalookirjet",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "tund"
+    },
+    "unitHourPlural": {
+        "message": "tundi"
+    },
+    "unitDay": {
+        "message": "päev"
+    },
+    "unitDayPlural": {
+        "message": "päeva"
+    },
+    "unitWeek": {
+        "message": "nädal"
+    },
+    "unitWeekPlural": {
+        "message": "nädalat"
+    },
+    "unitMonth": {
+        "message": "kuu"
+    },
+    "unitMonthPlural": {
+        "message": "kuud"
+    }
+}

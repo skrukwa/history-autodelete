@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Autoesborrat de l'historial"
+    },
+    "extDescription": {
+        "message": "Elimina automàticament l'historial de Chrome més antic d'una durada establerta."
+    },
+    "labelAutoDelete": {
+        "message": "Elimina automàticament l'historial de més de"
+    },
+    "labelDontAutoDelete": {
+        "message": "No eliminis l'historial automàticament"
+    },
+    "buttonApply": {
+        "message": "Aplica"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Això eliminarà immediatament $COUNT$ registre de l'historial",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Això eliminarà immediatament $COUNT$ registres de l'historial",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "hora"
+    },
+    "unitHourPlural": {
+        "message": "hores"
+    },
+    "unitDay": {
+        "message": "dia"
+    },
+    "unitDayPlural": {
+        "message": "dies"
+    },
+    "unitWeek": {
+        "message": "setmana"
+    },
+    "unitWeekPlural": {
+        "message": "setmanes"
+    },
+    "unitMonth": {
+        "message": "mes"
+    },
+    "unitMonthPlural": {
+        "message": "mesos"
+    }
+}

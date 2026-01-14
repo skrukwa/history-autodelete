@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Automatyczne Usuwanie Historii"
+    },
+    "extDescription": {
+        "message": "Automatycznie usuwa historię Chrome starszą niż określony czas."
+    },
+    "labelAutoDelete": {
+        "message": "Automatycznie usuwaj historię starszą niż"
+    },
+    "labelDontAutoDelete": {
+        "message": "Nie usuwaj automatycznie historii"
+    },
+    "buttonApply": {
+        "message": "Zastosuj"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "To natychmiast usunie $COUNT$ wpis z historii",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "To natychmiast usunie $COUNT$ wpisów z historii",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "godzina"
+    },
+    "unitHourPlural": {
+        "message": "godziny"
+    },
+    "unitDay": {
+        "message": "dzień"
+    },
+    "unitDayPlural": {
+        "message": "dni"
+    },
+    "unitWeek": {
+        "message": "tydzień"
+    },
+    "unitWeekPlural": {
+        "message": "tygodnie"
+    },
+    "unitMonth": {
+        "message": "miesiąc"
+    },
+    "unitMonthPlural": {
+        "message": "miesiące"
+    }
+}

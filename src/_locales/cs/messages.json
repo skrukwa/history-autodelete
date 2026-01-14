@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Automatické mazání historie"
+    },
+    "extDescription": {
+        "message": "Automaticky maže historii Chromu starší než nastavená doba."
+    },
+    "labelAutoDelete": {
+        "message": "Automaticky mazat historii starší než"
+    },
+    "labelDontAutoDelete": {
+        "message": "Nemazat historii automaticky"
+    },
+    "buttonApply": {
+        "message": "Použít"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Tímto okamžitě smažete $COUNT$ záznam z historie",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Tímto okamžitě smažete $COUNT$ záznamů z historie",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "hodina"
+    },
+    "unitHourPlural": {
+        "message": "hodin"
+    },
+    "unitDay": {
+        "message": "den"
+    },
+    "unitDayPlural": {
+        "message": "dnů"
+    },
+    "unitWeek": {
+        "message": "týden"
+    },
+    "unitWeekPlural": {
+        "message": "týdnů"
+    },
+    "unitMonth": {
+        "message": "měsíc"
+    },
+    "unitMonthPlural": {
+        "message": "měsíců"
+    }
+}

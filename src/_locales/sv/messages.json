@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Automatisk historikradering"
+    },
+    "extDescription": {
+        "message": "Radera Chrome-historik automatiskt som är äldre än en angiven tid."
+    },
+    "labelAutoDelete": {
+        "message": "Radera historik automatiskt som är äldre än"
+    },
+    "labelDontAutoDelete": {
+        "message": "Radera inte historik automatiskt"
+    },
+    "buttonApply": {
+        "message": "Verkställ"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Detta kommer omedelbart att radera $COUNT$ historikpost",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Detta kommer omedelbart att radera $COUNT$ historikposter",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "timme"
+    },
+    "unitHourPlural": {
+        "message": "timmar"
+    },
+    "unitDay": {
+        "message": "dag"
+    },
+    "unitDayPlural": {
+        "message": "dagar"
+    },
+    "unitWeek": {
+        "message": "vecka"
+    },
+    "unitWeekPlural": {
+        "message": "veckor"
+    },
+    "unitMonth": {
+        "message": "månad"
+    },
+    "unitMonthPlural": {
+        "message": "månader"
+    }
+}

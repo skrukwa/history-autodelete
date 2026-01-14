@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Vēstures automātiskā dzēšana"
+    },
+    "extDescription": {
+        "message": "Automātiski dzēst Chrome vēsturi, kas ir vecāka par iestatīto ilgumu."
+    },
+    "labelAutoDelete": {
+        "message": "Automātiski dzēst vēsturi, kas vecāka par"
+    },
+    "labelDontAutoDelete": {
+        "message": "Nedzēst vēsturi automātiski"
+    },
+    "buttonApply": {
+        "message": "Lietot"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Tas nekavējoties izdzēsīs $COUNT$ vēstures ierakstu",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Tas nekavējoties izdzēsīs $COUNT$ vēstures ierakstus",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "stunda"
+    },
+    "unitHourPlural": {
+        "message": "stundas"
+    },
+    "unitDay": {
+        "message": "diena"
+    },
+    "unitDayPlural": {
+        "message": "dienas"
+    },
+    "unitWeek": {
+        "message": "nedēļa"
+    },
+    "unitWeekPlural": {
+        "message": "nedēļas"
+    },
+    "unitMonth": {
+        "message": "mēnesis"
+    },
+    "unitMonthPlural": {
+        "message": "mēneši"
+    }
+}

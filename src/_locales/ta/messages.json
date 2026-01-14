@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "வரலாறு தானியங்கு நீக்கம்"
+    },
+    "extDescription": {
+        "message": "நிர்ணயிக்கப்பட்ட காலத்திற்கு பழைய குரோம் (Chrome) வரலாற்றைத் தானாகவே நீக்குகிறது."
+    },
+    "labelAutoDelete": {
+        "message": "இதற்கு மேல் பழைய வரலாற்றைத் தானாகவே நீக்கு"
+    },
+    "labelDontAutoDelete": {
+        "message": "வரலாற்றைத் தானாகவே நீக்க வேண்டாம்"
+    },
+    "buttonApply": {
+        "message": "செயல்படுத்து"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "இது உடனடியாக $COUNT$ வரலாற்றுப் பதிவை நீக்கும்",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "இது உடனடியாக $COUNT$ வரலாற்றுப் பதிவுகளை நீக்கும்",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "மணிநேரம்"
+    },
+    "unitHourPlural": {
+        "message": "மணிநேரங்கள்"
+    },
+    "unitDay": {
+        "message": "நாள்"
+    },
+    "unitDayPlural": {
+        "message": "நாட்கள்"
+    },
+    "unitWeek": {
+        "message": "வாரம்"
+    },
+    "unitWeekPlural": {
+        "message": "வாரங்கள்"
+    },
+    "unitMonth": {
+        "message": "மாதம்"
+    },
+    "unitMonthPlural": {
+        "message": "மாதங்கள்"
+    }
+}

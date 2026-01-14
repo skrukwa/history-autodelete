@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Samodejno brisanje zgodovine"
+    },
+    "extDescription": {
+        "message": "Samodejno izbrišite zgodovino brskalnika Chrome, starejšo od določenega obdobja."
+    },
+    "labelAutoDelete": {
+        "message": "Samodejno izbriši zgodovino, starejšo od"
+    },
+    "labelDontAutoDelete": {
+        "message": "Ne briši zgodovine samodejno"
+    },
+    "buttonApply": {
+        "message": "Uporabi"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "S tem boste takoj izbrisali $COUNT$ zapis zgodovine",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "S tem boste takoj izbrisali $COUNT$ zapisov zgodovine",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "ura"
+    },
+    "unitHourPlural": {
+        "message": "ure"
+    },
+    "unitDay": {
+        "message": "dan"
+    },
+    "unitDayPlural": {
+        "message": "dni"
+    },
+    "unitWeek": {
+        "message": "teden"
+    },
+    "unitWeekPlural": {
+        "message": "tedni"
+    },
+    "unitMonth": {
+        "message": "mesec"
+    },
+    "unitMonthPlural": {
+        "message": "meseci"
+    }
+}

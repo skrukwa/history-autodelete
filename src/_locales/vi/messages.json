@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Tự động Xóa Lịch sử"
+    },
+    "extDescription": {
+        "message": "Tự động xóa lịch sử Chrome cũ hơn một khoảng thời gian đã thiết lập."
+    },
+    "labelAutoDelete": {
+        "message": "Tự động xóa lịch sử cũ hơn"
+    },
+    "labelDontAutoDelete": {
+        "message": "Không tự động xóa lịch sử"
+    },
+    "buttonApply": {
+        "message": "Áp dụng"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Hành động này sẽ xóa ngay lập tức $COUNT$ bản ghi lịch sử",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Hành động này sẽ xóa ngay lập tức $COUNT$ bản ghi lịch sử",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "giờ"
+    },
+    "unitHourPlural": {
+        "message": "giờ"
+    },
+    "unitDay": {
+        "message": "ngày"
+    },
+    "unitDayPlural": {
+        "message": "ngày"
+    },
+    "unitWeek": {
+        "message": "tuần"
+    },
+    "unitWeekPlural": {
+        "message": "tuần"
+    },
+    "unitMonth": {
+        "message": "tháng"
+    },
+    "unitMonthPlural": {
+        "message": "tháng"
+    }
+}

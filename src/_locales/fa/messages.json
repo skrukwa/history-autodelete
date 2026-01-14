@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "حذف خودکار تاریخچه"
+    },
+    "extDescription": {
+        "message": "حذف خودکار تاریخچه کروم که قدیمی‌تر از یک بازه زمانی مشخص باشد."
+    },
+    "labelAutoDelete": {
+        "message": "حذف خودکار تاریخچه قدیمی‌تر از"
+    },
+    "labelDontAutoDelete": {
+        "message": "تاریخچه به‌طور خودکار حذف نشود"
+    },
+    "buttonApply": {
+        "message": "اعمال"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "این عمل بلافاصله $COUNT$ مورد از تاریخچه را حذف خواهد کرد",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "این عمل بلافاصله $COUNT$ مورد از تاریخچه را حذف خواهد کرد",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "ساعت"
+    },
+    "unitHourPlural": {
+        "message": "ساعت"
+    },
+    "unitDay": {
+        "message": "روز"
+    },
+    "unitDayPlural": {
+        "message": "روز"
+    },
+    "unitWeek": {
+        "message": "هفته"
+    },
+    "unitWeekPlural": {
+        "message": "هفته"
+    },
+    "unitMonth": {
+        "message": "ماه"
+    },
+    "unitMonthPlural": {
+        "message": "ماه"
+    }
+}

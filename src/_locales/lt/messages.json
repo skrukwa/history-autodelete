@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Automatinis istorijos trynimas"
+    },
+    "extDescription": {
+        "message": "Automatiškai ištrinti „Chrome“ istoriją, senesnę nei nurodyta trukmė."
+    },
+    "labelAutoDelete": {
+        "message": "Automatiškai trinti istoriją, senesnę nei"
+    },
+    "labelDontAutoDelete": {
+        "message": "Netrinti istorijos automatiškai"
+    },
+    "buttonApply": {
+        "message": "Taikyti"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Tai nedelsiant ištrins $COUNT$ istorijos įrašą",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Tai nedelsiant ištrins $COUNT$ istorijos įrašus",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "valanda"
+    },
+    "unitHourPlural": {
+        "message": "valandos"
+    },
+    "unitDay": {
+        "message": "diena"
+    },
+    "unitDayPlural": {
+        "message": "dienos"
+    },
+    "unitWeek": {
+        "message": "savaitė"
+    },
+    "unitWeekPlural": {
+        "message": "savaitės"
+    },
+    "unitMonth": {
+        "message": "mėnuo"
+    },
+    "unitMonthPlural": {
+        "message": "mėnesiai"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "מחיקה אוטומטית של היסטוריית הגלישה"
+    },
+    "extDescription": {
+        "message": "מחיקה אוטומטית של היסטוריית Chrome הישנה מפרק זמן מוגדר."
+    },
+    "labelAutoDelete": {
+        "message": "מחיקה אוטומטית של היסטוריה שגילה עולה על"
+    },
+    "labelDontAutoDelete": {
+        "message": "אל תמחק היסטוריה באופן אוטומטי"
+    },
+    "buttonApply": {
+        "message": "החל"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "פעולה זו תמחק באופן מיידי רשומת היסטוריה $COUNT$",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "פעולה זו תמחק באופן מיידי $COUNT$ רשומות היסטוריה",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "שעה"
+    },
+    "unitHourPlural": {
+        "message": "שעות"
+    },
+    "unitDay": {
+        "message": "יום"
+    },
+    "unitDayPlural": {
+        "message": "ימים"
+    },
+    "unitWeek": {
+        "message": "שבוע"
+    },
+    "unitWeekPlural": {
+        "message": "שבועות"
+    },
+    "unitMonth": {
+        "message": "חודש"
+    },
+    "unitMonthPlural": {
+        "message": "חודשים"
+    }
+}

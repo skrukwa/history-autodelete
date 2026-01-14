@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Автовидалення історії"
+    },
+    "extDescription": {
+        "message": "Автоматично видаляйте історію Chrome, старішу за вказаний період."
+    },
+    "labelAutoDelete": {
+        "message": "Автоматично видаляти історію, старішу за"
+    },
+    "labelDontAutoDelete": {
+        "message": "Не видаляти історію автоматично"
+    },
+    "buttonApply": {
+        "message": "Застосувати"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Це негайно видалить $COUNT$ запис історії",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Це негайно видалить $COUNT$ записів історії",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "година"
+    },
+    "unitHourPlural": {
+        "message": "години"
+    },
+    "unitDay": {
+        "message": "день"
+    },
+    "unitDayPlural": {
+        "message": "дні"
+    },
+    "unitWeek": {
+        "message": "тиждень"
+    },
+    "unitWeekPlural": {
+        "message": "тижні"
+    },
+    "unitMonth": {
+        "message": "місяць"
+    },
+    "unitMonthPlural": {
+        "message": "місяці"
+    }
+}

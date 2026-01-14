@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Historian automaattinen poisto"
+    },
+    "extDescription": {
+        "message": "Poista Chromen selaushistoria automaattisesti määritettyä aikaa vanhemmilta osin."
+    },
+    "labelAutoDelete": {
+        "message": "Poista automaattisesti historia, joka on vanhempi kuin"
+    },
+    "labelDontAutoDelete": {
+        "message": "Älä poista historiaa automaattisesti"
+    },
+    "buttonApply": {
+        "message": "Käytä"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Tämä poistaa välittömästi $COUNT$ historiatietueen",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Tämä poistaa välittömästi $COUNT$ historiatietuetta",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "tunti"
+    },
+    "unitHourPlural": {
+        "message": "tuntia"
+    },
+    "unitDay": {
+        "message": "päivä"
+    },
+    "unitDayPlural": {
+        "message": "päivää"
+    },
+    "unitWeek": {
+        "message": "viikko"
+    },
+    "unitWeekPlural": {
+        "message": "viikkoa"
+    },
+    "unitMonth": {
+        "message": "kuukausi"
+    },
+    "unitMonthPlural": {
+        "message": "kuukautta"
+    }
+}

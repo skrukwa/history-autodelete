@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "ลบประวัติอัตโนมัติ"
+    },
+    "extDescription": {
+        "message": "ลบประวัติการเข้าชม Chrome ที่เก่ากว่าระยะเวลาที่กำหนดโดยอัตโนมัติ"
+    },
+    "labelAutoDelete": {
+        "message": "ลบประวัติที่เก่ากว่าโดยอัตโนมัติ"
+    },
+    "labelDontAutoDelete": {
+        "message": "ไม่ต้องลบประวัติโดยอัตโนมัติ"
+    },
+    "buttonApply": {
+        "message": "นำไปใช้"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "การดำเนินการนี้จะลบรายการประวัติ $COUNT$ รายการทันที",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "การดำเนินการนี้จะลบรายการประวัติ $COUNT$ รายการทันที",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "ชั่วโมง"
+    },
+    "unitHourPlural": {
+        "message": "ชั่วโมง"
+    },
+    "unitDay": {
+        "message": "วัน"
+    },
+    "unitDayPlural": {
+        "message": "วัน"
+    },
+    "unitWeek": {
+        "message": "สัปดาห์"
+    },
+    "unitWeekPlural": {
+        "message": "สัปดาห์"
+    },
+    "unitMonth": {
+        "message": "เดือน"
+    },
+    "unitMonthPlural": {
+        "message": "เดือน"
+    }
+}

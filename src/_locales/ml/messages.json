@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "ഹിസ്റ്ററി ഓട്ടോഡിലീറ്റ്"
+    },
+    "extDescription": {
+        "message": "നിശ്ചിത സമയത്തേക്കാൾ പഴക്കമുള്ള ക്രോം ഹിസ്റ്ററി സ്വയമേവ നീക്കം ചെയ്യുക."
+    },
+    "labelAutoDelete": {
+        "message": "ഇതിലും പഴക്കമുള്ള ഹിസ്റ്ററി സ്വയമേവ നീക്കം ചെയ്യുക"
+    },
+    "labelDontAutoDelete": {
+        "message": "ഹിസ്റ്ററി സ്വയമേവ നീക്കം ചെയ്യേണ്ടതില്ല"
+    },
+    "buttonApply": {
+        "message": "ബാധകമാക്കുക"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "ഇത് ഉടൻ തന്നെ $COUNT$ ഹിസ്റ്ററി റെക്കോർഡ് നീക്കം ചെയ്യും",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "ഇത് ഉടൻ തന്നെ $COUNT$ ഹിസ്റ്ററി റെക്കോർഡുകൾ നീക്കം ചെയ്യും",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "മണിക്കൂർ"
+    },
+    "unitHourPlural": {
+        "message": "മണിക്കൂറുകൾ"
+    },
+    "unitDay": {
+        "message": "ദിവസം"
+    },
+    "unitDayPlural": {
+        "message": "ദിവസങ്ങൾ"
+    },
+    "unitWeek": {
+        "message": "ആഴ്ച"
+    },
+    "unitWeekPlural": {
+        "message": "ആഴ്ചകൾ"
+    },
+    "unitMonth": {
+        "message": "മാസം"
+    },
+    "unitMonthPlural": {
+        "message": "മാസങ്ങൾ"
+    }
+}

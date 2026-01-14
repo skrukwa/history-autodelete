@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Auto-Padam Sejarah"
+    },
+    "extDescription": {
+        "message": "Padam sejarah Chrome secara automatik yang lebih lama daripada tempoh yang ditetapkan."
+    },
+    "labelAutoDelete": {
+        "message": "Auto-padam sejarah yang lebih lama daripada"
+    },
+    "labelDontAutoDelete": {
+        "message": "Jangan auto-padam sejarah"
+    },
+    "buttonApply": {
+        "message": "Gunakan"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Ini akan memadam $COUNT$ rekod sejarah dengan segera",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Ini akan memadam $COUNT$ rekod sejarah dengan segera",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "jam"
+    },
+    "unitHourPlural": {
+        "message": "jam"
+    },
+    "unitDay": {
+        "message": "hari"
+    },
+    "unitDayPlural": {
+        "message": "hari"
+    },
+    "unitWeek": {
+        "message": "minggu"
+    },
+    "unitWeekPlural": {
+        "message": "minggu"
+    },
+    "unitMonth": {
+        "message": "bulan"
+    },
+    "unitMonthPlural": {
+        "message": "bulan"
+    }
+}

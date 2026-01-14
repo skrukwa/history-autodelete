@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "历史记录自动删除"
+    },
+    "extDescription": {
+        "message": "自动删除超过设定时长的 Chrome 历史记录。"
+    },
+    "labelAutoDelete": {
+        "message": "自动删除早于以下时间的历史记录"
+    },
+    "labelDontAutoDelete": {
+        "message": "不自动删除历史记录"
+    },
+    "buttonApply": {
+        "message": "应用"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "这将立即删除 $COUNT$ 条历史记录",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "这将立即删除 $COUNT$ 条历史记录",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "小时"
+    },
+    "unitHourPlural": {
+        "message": "小时"
+    },
+    "unitDay": {
+        "message": "天"
+    },
+    "unitDayPlural": {
+        "message": "天"
+    },
+    "unitWeek": {
+        "message": "周"
+    },
+    "unitWeekPlural": {
+        "message": "周"
+    },
+    "unitMonth": {
+        "message": "个月"
+    },
+    "unitMonthPlural": {
+        "message": "个月"
+    }
+}

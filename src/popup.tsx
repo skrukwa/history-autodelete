@@ -5,6 +5,8 @@ import ReactDOM from "react-dom/client"
 import { APPLIED_MESSAGE_ACTION, DEFAULT_SETTINGS, MS_PER, Settings, SETTINGS_KEYS, TIME_UNITS, TimeUnit } from "./global"
 
 const Popup = () => {
+    const i18n = (key: string, substitutions?: string | string[]) => chrome.i18n.getMessage(key, substitutions)
+
     const [enabled, setEnabled] = useState<boolean>(DEFAULT_SETTINGS.enabled)
     const [value, setValue] = useState<number | ''>(DEFAULT_SETTINGS.value)
     const [unit, setUnit] = useState<TimeUnit>(DEFAULT_SETTINGS.unit)
@@ -77,7 +79,7 @@ const Popup = () => {
         <Box sx={{ width: 384 }}>
             <Box sx={{ py: 2, px: 4, color: "white", backgroundColor: theme.palette.primary.main }}>
                 <Typography variant="h6">
-                    History AutoDelete
+                    {i18n("extName")}
                 </Typography>
             </Box>
             <Box sx={{ m: 3 }}>
@@ -90,7 +92,7 @@ const Popup = () => {
                         control={<Radio />}
                         label={
                             <Box>
-                                <Typography sx={{ py: 1.125 }}>Auto-delete history older than</Typography>
+                                <Typography sx={{ py: 1.125 }}>{i18n("labelAutoDelete")}</Typography>
                                 <Box>
                                     <TextField
                                         size="small"
@@ -116,7 +118,9 @@ const Popup = () => {
                                     >
                                         {TIME_UNITS.map((u) => (
                                             <MenuItem key={u} value={u}>
-                                                {value !== '' && value > 1 ? `${u}s` : u}
+                                                {value !== '' && value > 1
+                                                    ? i18n(`unit${u.charAt(0).toUpperCase() + u.slice(1)}Plural`)
+                                                    : i18n(`unit${u.charAt(0).toUpperCase() + u.slice(1)}`)}
                                             </MenuItem>
                                         ))}
                                     </TextField>
@@ -129,7 +133,7 @@ const Popup = () => {
                         value="off"
                         control={<Radio />}
                         label={
-                            <Typography sx={{ py: 1.125 }}>Don't auto-delete history</Typography>
+                            <Typography sx={{ py: 1.125 }}>{i18n("labelDontAutoDelete")}</Typography>
                         }
                         sx={{ m: 0 }}
                     />
@@ -142,13 +146,13 @@ const Popup = () => {
                         disabled={isApplyDisabled}
                         sx={{ minWidth: 100, m: 1.125 }}
                     >
-                        Apply
+                        {i18n("buttonApply")}
                     </Button>
                     {enabled && !isApplyDisabled && historyCount !== null && (
                         <Typography variant="body2" sx={{ ml: 2, color: theme.palette.text.secondary }}>
-                            This will immediately delete
-                            <br />
-                            {`${historyCount.toLocaleString()} history record${historyCount !== 1 ? 's' : ''}`}
+                            {historyCount === 1 
+                                ? i18n("warningImmediateDeleteSingular", historyCount.toLocaleString()) 
+                                : i18n("warningImmediateDeletePlural", historyCount.toLocaleString())}
                         </Typography>
                     )}
                 </Box>

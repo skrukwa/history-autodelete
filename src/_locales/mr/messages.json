@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "हिस्ट्री ऑटो-डिलीट"
+    },
+    "extDescription": {
+        "message": "ठराविक कालावधीपेक्षा जुना क्रोम इतिहास आपोआप हटवा."
+    },
+    "labelAutoDelete": {
+        "message": "यापेक्षा जुना इतिहास आपोआप हटवा"
+    },
+    "labelDontAutoDelete": {
+        "message": "इतिहास आपोआप हटवू नका"
+    },
+    "buttonApply": {
+        "message": "लागू करा"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "यामुळे $COUNT$ इतिहास नोंद त्वरित हटवली जाईल",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "यामुळे $COUNT$ इतिहास नोंदी त्वरित हटवल्या जातील",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "तास"
+    },
+    "unitHourPlural": {
+        "message": "तास"
+    },
+    "unitDay": {
+        "message": "दिवस"
+    },
+    "unitDayPlural": {
+        "message": "दिवस"
+    },
+    "unitWeek": {
+        "message": "आठवडा"
+    },
+    "unitWeekPlural": {
+        "message": "आठवडे"
+    },
+    "unitMonth": {
+        "message": "महिना"
+    },
+    "unitMonthPlural": {
+        "message": "महिने"
+    }
+}

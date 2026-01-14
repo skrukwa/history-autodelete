@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "歷史紀錄自動刪除"
+    },
+    "extDescription": {
+        "message": "自動刪除超過設定時間的 Chrome 瀏覽紀錄。"
+    },
+    "labelAutoDelete": {
+        "message": "自動刪除早於此時間的紀錄："
+    },
+    "labelDontAutoDelete": {
+        "message": "不自動刪除紀錄"
+    },
+    "buttonApply": {
+        "message": "套用"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "這將立即刪除 $COUNT$ 筆瀏覽紀錄",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "這將立即刪除 $COUNT$ 筆瀏覽紀錄",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "小時"
+    },
+    "unitHourPlural": {
+        "message": "小時"
+    },
+    "unitDay": {
+        "message": "天"
+    },
+    "unitDayPlural": {
+        "message": "天"
+    },
+    "unitWeek": {
+        "message": "週"
+    },
+    "unitWeekPlural": {
+        "message": "週"
+    },
+    "unitMonth": {
+        "message": "個月"
+    },
+    "unitMonthPlural": {
+        "message": "個月"
+    }
+}

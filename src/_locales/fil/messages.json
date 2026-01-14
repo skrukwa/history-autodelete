@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Awtomatikong Pagbura ng Kasaysayan"
+    },
+    "extDescription": {
+        "message": "Awtomatikong burahin ang history ng Chrome na mas matagal na sa itinakdang panahon."
+    },
+    "labelAutoDelete": {
+        "message": "Awtomatikong burahin ang history na mas matagal sa"
+    },
+    "labelDontAutoDelete": {
+        "message": "Huwag awtomatikong burahin ang history"
+    },
+    "buttonApply": {
+        "message": "Ilapat"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Agad nitong buburahin ang $COUNT$ record ng history",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Agad nitong buburahin ang $COUNT$ na mga record ng history",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "oras"
+    },
+    "unitHourPlural": {
+        "message": "mga oras"
+    },
+    "unitDay": {
+        "message": "araw"
+    },
+    "unitDayPlural": {
+        "message": "mga araw"
+    },
+    "unitWeek": {
+        "message": "linggo"
+    },
+    "unitWeekPlural": {
+        "message": "mga linggo"
+    },
+    "unitMonth": {
+        "message": "buwan"
+    },
+    "unitMonthPlural": {
+        "message": "mga buwan"
+    }
+}

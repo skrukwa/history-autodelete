@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Verlauf automatisch löschen"
+    },
+    "extDescription": {
+        "message": "Löschen Sie den Chrome-Verlauf, der älter als eine festgelegte Dauer ist, automatisch."
+    },
+    "labelAutoDelete": {
+        "message": "Verlauf automatisch löschen, der älter ist als"
+    },
+    "labelDontAutoDelete": {
+        "message": "Verlauf nicht automatisch löschen"
+    },
+    "buttonApply": {
+        "message": "Anwenden"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Dies wird sofort $COUNT$ Verlaufsdatensatz löschen",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Dies wird sofort $COUNT$ Verlaufsdatensätze löschen",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "Stunde"
+    },
+    "unitHourPlural": {
+        "message": "Stunden"
+    },
+    "unitDay": {
+        "message": "Tag"
+    },
+    "unitDayPlural": {
+        "message": "Tage"
+    },
+    "unitWeek": {
+        "message": "Woche"
+    },
+    "unitWeekPlural": {
+        "message": "Wochen"
+    },
+    "unitMonth": {
+        "message": "Monat"
+    },
+    "unitMonthPlural": {
+        "message": "Monate"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Eliminazione Automatica Cronologia"
+    },
+    "extDescription": {
+        "message": "Elimina automaticamente la cronologia di Chrome più vecchia di una durata prestabilita."
+    },
+    "labelAutoDelete": {
+        "message": "Elimina automaticamente la cronologia più vecchia di"
+    },
+    "labelDontAutoDelete": {
+        "message": "Non eliminare automaticamente la cronologia"
+    },
+    "buttonApply": {
+        "message": "Applica"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Questo eliminerà immediatamente $COUNT$ voce della cronologia",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Questo eliminerà immediatamente $COUNT$ voci della cronologia",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "ora"
+    },
+    "unitHourPlural": {
+        "message": "ore"
+    },
+    "unitDay": {
+        "message": "giorno"
+    },
+    "unitDayPlural": {
+        "message": "giorni"
+    },
+    "unitWeek": {
+        "message": "settimana"
+    },
+    "unitWeekPlural": {
+        "message": "settimane"
+    },
+    "unitMonth": {
+        "message": "mese"
+    },
+    "unitMonthPlural": {
+        "message": "mesi"
+    }
+}

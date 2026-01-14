@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "হিস্ট্রি অটো-ডিলিট"
+    },
+    "extDescription": {
+        "message": "একটি নির্দিষ্ট সময়ের চেয়ে পুরনো ক্রোম হিস্ট্রি স্বয়ংক্রিয়ভাবে মুছে ফেলুন।"
+    },
+    "labelAutoDelete": {
+        "message": "এর চেয়ে পুরনো হিস্ট্রি স্বয়ংক্রিয়ভাবে মুছে ফেলুন"
+    },
+    "labelDontAutoDelete": {
+        "message": "হিস্ট্রি স্বয়ংক্রিয়ভাবে মুছবেন না"
+    },
+    "buttonApply": {
+        "message": "প্রয়োগ করুন"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "এটি অবিলম্বে $COUNT$টি হিস্ট্রি রেকর্ড মুছে ফেলবে",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "এটি অবিলম্বে $COUNT$টি হিস্ট্রি রেকর্ড মুছে ফেলবে",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "ঘণ্টা"
+    },
+    "unitHourPlural": {
+        "message": "ঘণ্টা"
+    },
+    "unitDay": {
+        "message": "দিন"
+    },
+    "unitDayPlural": {
+        "message": "দিন"
+    },
+    "unitWeek": {
+        "message": "সপ্তাহ"
+    },
+    "unitWeekPlural": {
+        "message": "সপ্তাহ"
+    },
+    "unitMonth": {
+        "message": "মাস"
+    },
+    "unitMonthPlural": {
+        "message": "মাস"
+    }
+}

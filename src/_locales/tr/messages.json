@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Geçmiş Otomatik Silme"
+    },
+    "extDescription": {
+        "message": "Belirlenen süreden daha eski Chrome geçmişini otomatik olarak siler."
+    },
+    "labelAutoDelete": {
+        "message": "Şundan daha eski geçmişi otomatik sil:"
+    },
+    "labelDontAutoDelete": {
+        "message": "Geçmişi otomatik silme"
+    },
+    "buttonApply": {
+        "message": "Uygula"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Bu işlem $COUNT$ geçmiş kaydını anında silecek",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Bu işlem $COUNT$ geçmiş kaydını anında silecek",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "saat"
+    },
+    "unitHourPlural": {
+        "message": "saat"
+    },
+    "unitDay": {
+        "message": "gün"
+    },
+    "unitDayPlural": {
+        "message": "gün"
+    },
+    "unitWeek": {
+        "message": "hafta"
+    },
+    "unitWeekPlural": {
+        "message": "hafta"
+    },
+    "unitMonth": {
+        "message": "ay"
+    },
+    "unitMonthPlural": {
+        "message": "ay"
+    }
+}

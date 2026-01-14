@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Hapus Otomatis Riwayat"
+    },
+    "extDescription": {
+        "message": "Hapus otomatis riwayat Chrome yang lebih lama dari durasi yang ditentukan."
+    },
+    "labelAutoDelete": {
+        "message": "Hapus otomatis riwayat yang lebih lama dari"
+    },
+    "labelDontAutoDelete": {
+        "message": "Jangan hapus otomatis riwayat"
+    },
+    "buttonApply": {
+        "message": "Terapkan"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Ini akan segera menghapus $COUNT$ catatan riwayat",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Ini akan segera menghapus $COUNT$ catatan riwayat",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "jam"
+    },
+    "unitHourPlural": {
+        "message": "jam"
+    },
+    "unitDay": {
+        "message": "hari"
+    },
+    "unitDayPlural": {
+        "message": "hari"
+    },
+    "unitWeek": {
+        "message": "minggu"
+    },
+    "unitWeekPlural": {
+        "message": "minggu"
+    },
+    "unitMonth": {
+        "message": "bulan"
+    },
+    "unitMonthPlural": {
+        "message": "bulan"
+    }
+}

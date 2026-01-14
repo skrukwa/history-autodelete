@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "الحذف التلقائي للسجل"
+    },
+    "extDescription": {
+        "message": "حذف سجل Chrome تلقائيًا الذي يتجاوز مدة محددة."
+    },
+    "labelAutoDelete": {
+        "message": "حذف السجل تلقائيًا إذا كان أقدم من"
+    },
+    "labelDontAutoDelete": {
+        "message": "عدم حذف السجل تلقائيًا"
+    },
+    "buttonApply": {
+        "message": "تطبيق"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "سيؤدي هذا إلى حذف $COUNT$ سجل من السجل فورًا",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "سيؤدي هذا إلى حذف $COUNT$ سجلات من السجل فورًا",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "ساعة"
+    },
+    "unitHourPlural": {
+        "message": "ساعات"
+    },
+    "unitDay": {
+        "message": "يوم"
+    },
+    "unitDayPlural": {
+        "message": "أيام"
+    },
+    "unitWeek": {
+        "message": "أسبوع"
+    },
+    "unitWeekPlural": {
+        "message": "أسابيع"
+    },
+    "unitMonth": {
+        "message": "شهر"
+    },
+    "unitMonthPlural": {
+        "message": "أشهر"
+    }
+}

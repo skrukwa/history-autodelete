@@ -1,0 +1,57 @@
+{
+    "extName": {
+        "message": "Futa Historia Otomatiki"
+    },
+    "extDescription": {
+        "message": "Futa historia ya Chrome kiotomatiki ambayo ni ya zamani kuliko muda uliowekwa."
+    },
+    "labelAutoDelete": {
+        "message": "Futa historia kiotomatiki iliyozidi"
+    },
+    "labelDontAutoDelete": {
+        "message": "Usifute historia kiotomatiki"
+    },
+    "buttonApply": {
+        "message": "Tumia"
+    },
+    "warningImmediateDeleteSingular": {
+        "message": "Hii itafuta mara moja rekodi $COUNT$ ya historia",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "warningImmediateDeletePlural": {
+        "message": "Hii itafuta mara moja rekodi $COUNT$ za historia",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "unitHour": {
+        "message": "saa"
+    },
+    "unitHourPlural": {
+        "message": "saa"
+    },
+    "unitDay": {
+        "message": "siku"
+    },
+    "unitDayPlural": {
+        "message": "siku"
+    },
+    "unitWeek": {
+        "message": "wiki"
+    },
+    "unitWeekPlural": {
+        "message": "wiki"
+    },
+    "unitMonth": {
+        "message": "mwezi"
+    },
+    "unitMonthPlural": {
+        "message": "miezi"
+    }
+}
